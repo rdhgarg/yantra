@@ -1,0 +1,121 @@
+[12-May-2020 15:22:38 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 20975616 bytes) in /home/crowdjpr/public_html/bhagban/app/Http/Controllers/Api/Mobile/Auth/ApiAuthController.php on line 349
+[12-May-2020 20:47:09 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 23072768 bytes) in /home/crowdjpr/public_html/bhagban/app/Http/Controllers/Api/Mobile/Auth/ApiAuthController.php on line 296
+[12-May-2020 20:47:24 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 23072768 bytes) in /home/crowdjpr/public_html/bhagban/app/Http/Controllers/Api/Mobile/Auth/ApiAuthController.php on line 296
+[12-May-2020 21:14:52 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 23072768 bytes) in /home/crowdjpr/public_html/bhagban/app/Http/Controllers/Api/Mobile/Auth/ApiAuthController.php on line 296
+[23-Aug-2021 18:41:08 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Api\Mobile\Auth\ApiAuthController::myprofile() in /home/androidhiker/public_html/joyflier/app/Http/Controllers/Api/Mobile/Auth/ApiAuthController.php on line 788
+[23-Aug-2021 19:27:15 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 526389248 bytes) in /home/androidhiker/public_html/joyflier/app/Http/Controllers/Api/Mobile/Auth/ApiAuthController.php on line 783
+[25-Aug-2021 10:59:58 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Frontend\HomeController::AboutUs() in /home/androidhiker/public_html/joyflier/app/Http/Controllers/Frontend/HomeController.php on line 494
+[25-Aug-2021 11:00:14 Asia/Kolkata] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Frontend\HomeController::AboutUs() in /home/androidhiker/public_html/joyflier/app/Http/Controllers/Frontend/HomeController.php on line 494
+[04-Sep-2021 13:15:03 Asia/Kolkata] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/androidhiker/public_html/joyflier/app/Http/Controllers/Frontend/HomeController.php on line 2
+[25-Oct-2021 14:45:29 Asia/Kolkata] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 526389248 bytes) in /home/androidhiker/public_html/joyflier/app/Http/Controllers/Api/Mobile/Auth/ApiAuthController.php on line 622
+[04-Jan-2022 09:38:43 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[04-Jan-2022 09:38:44 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[04-Jan-2022 09:39:16 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[07-Jan-2022 06:12:46 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[07-Jan-2022 06:12:46 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[08-Jan-2022 17:04:06 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[08-Jan-2022 17:04:06 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[08-Jan-2022 17:05:15 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[08-Jan-2022 17:05:35 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Jan-2022 06:16:35 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Jan-2022 06:16:35 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[12-Jan-2022 06:17:17 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[13-Jan-2022 15:41:14 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[13-Jan-2022 15:41:14 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[13-Jan-2022 15:41:27 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[16-Jan-2022 04:20:59 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[16-Jan-2022 04:20:59 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[16-Jan-2022 04:21:02 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[16-Jan-2022 04:21:44 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[16-Jan-2022 04:21:51 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[17-Jan-2022 14:30:45 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[17-Jan-2022 14:30:45 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[17-Jan-2022 14:31:05 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[17-Jan-2022 14:31:21 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[23-Jan-2022 17:50:45 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[23-Jan-2022 17:50:46 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Jan-2022 06:29:30 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Jan-2022 06:29:30 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Jan-2022 06:29:33 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Jan-2022 15:20:05 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[26-Jan-2022 15:20:05 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[29-Jan-2022 15:27:59 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[29-Jan-2022 15:27:59 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[29-Jan-2022 15:28:35 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[29-Jan-2022 15:28:41 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[29-Jan-2022 15:29:37 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[29-Jan-2022 15:29:55 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[29-Jan-2022 15:29:56 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Jan-2022 07:45:21 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Jan-2022 07:45:22 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Jan-2022 17:39:17 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Jan-2022 17:39:17 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[07-Feb-2022 18:15:37 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[07-Feb-2022 18:15:37 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[11-Feb-2022 04:01:07 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[11-Feb-2022 04:01:07 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[11-Feb-2022 04:02:42 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[17-Feb-2022 11:28:32 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[17-Feb-2022 11:28:32 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[17-Feb-2022 11:28:42 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[17-Feb-2022 11:29:09 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Feb-2022 14:13:07 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Feb-2022 14:13:07 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[22-Feb-2022 19:43:08 Asia/Kolkata] PHP Warning:  unlink(/home/androidhiker/public_html/joyflier/storage/logs/laravel-2022-01-16.log): No such file or directory in /home/androidhiker/public_html/joyflier/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php on line 155
+[22-Feb-2022 14:13:11 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[09-Mar-2022 07:08:03 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[09-Mar-2022 07:08:04 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[09-Mar-2022 14:01:05 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[09-Mar-2022 14:01:05 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[28-Apr-2022 16:54:22 Asia/Kolkata] PHP Warning:  unlink(/home/androidhiker/public_html/joyflier/storage/logs/laravel-2022-01-22.log): No such file or directory in /home/androidhiker/public_html/joyflier/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php on line 155
+[03-Jun-2022 09:47:11 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[03-Jun-2022 09:47:11 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[03-Jun-2022 09:47:24 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Jun-2022 12:21:33 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Jun-2022 12:21:33 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Jun-2022 12:25:28 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Jun-2022 12:25:54 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[30-Jun-2022 12:26:07 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 06:23:38 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 06:23:38 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 06:34:38 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 07:51:55 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 07:51:55 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 07:52:02 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 07:52:38 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 07:53:14 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 07:53:14 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 07:53:18 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 07:53:56 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 07:54:07 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 08:03:58 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 08:03:58 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 08:05:18 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 08:13:17 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 08:13:17 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 08:18:08 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 08:19:35 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 08:19:46 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 08:19:50 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 08:21:22 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 09:19:17 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 09:19:17 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 09:22:22 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 14:31:38 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 14:31:38 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 14:32:20 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 14:32:20 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 15:30:34 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[05-Jul-2022 15:30:34 UTC] PHP Warning:  Missing boundary in multipart/form-data POST data in Unknown on line 0
+[06-Jul-2022 13:40:11 Asia/Kolkata] PHP Fatal error:  Cannot use App\User as User because the name is already in use in /home/androidhiker/public_html/stichspares/app/Http/Controllers/Backend/UserController.php on line 7
+[14-Jul-2022 12:09:00 Asia/Kolkata] PHP Fatal error:  Trait 'App\HasRoles' not found in /home/androidhiker/public_html/stichspares/app/User.php on line 11
+[14-Jul-2022 12:10:41 Asia/Kolkata] PHP Fatal error:  Class App\User contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) in /home/androidhiker/public_html/stichspares/app/User.php on line 11
+[14-Jul-2022 14:08:54 Asia/Kolkata] PHP Fatal error:  Trait 'App\HasRoles' not found in /home/androidhiker/public_html/stichspares/app/User.php on line 11
+[14-Jul-2022 14:10:09 Asia/Kolkata] PHP Fatal error:  Trait 'App\HasRoles' not found in /home/androidhiker/public_html/stichspares/app/User.php on line 11
+[14-Jul-2022 14:12:52 Asia/Kolkata] PHP Fatal error:  Trait 'App\HasRoles' not found in /home/androidhiker/public_html/stichspares/app/User.php on line 11
+[14-Jul-2022 14:13:21 Asia/Kolkata] PHP Fatal error:  Trait 'App\HasRoles' not found in /home/androidhiker/public_html/stichspares/app/User.php on line 11
+[14-Jul-2022 14:13:24 Asia/Kolkata] PHP Fatal error:  Trait 'App\HasRoles' not found in /home/androidhiker/public_html/stichspares/app/User.php on line 11
+[14-Jul-2022 14:16:36 Asia/Kolkata] PHP Fatal error:  Trait 'App\HasRoles' not found in /home/androidhiker/public_html/stichspares/app/User.php on line 11
+[14-Jul-2022 14:17:41 Asia/Kolkata] PHP Fatal error:  Trait 'App\HasRoles' not found in /home/androidhiker/public_html/stichspares/app/User.php on line 11
+[18-Jul-2022 10:24:03 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Http\Request as Request because the name is already in use in /home/androidhiker/public_html/stichspares/app/Http/Controllers/Backend/ProductController.php on line 24
+[18-Jul-2022 10:49:21 Asia/Kolkata] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Request as Request because the name is already in use in /home/androidhiker/public_html/stichspares/app/Http/Controllers/Backend/ProductController.php on line 25

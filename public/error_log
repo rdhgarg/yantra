@@ -1,0 +1,1 @@
+[20-Mar-2020 12:33:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 98570240 bytes) in /home/prv20k/public_html/bankyojana.com/androidhiker/app/Http/Controllers/Backend/SalesController.php on line 136
