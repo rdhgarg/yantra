@@ -20,7 +20,8 @@ class AppController extends Controller
 
         $validator = Validator::make($request->all(), [
             // 'name' => 'required',
-            'dob' => 'required',
+            'dob' => 'required|numeric',
+            'number' => 'nullable|numeric',
             // 'gender' => 'required',
         ]);
 
@@ -43,16 +44,23 @@ class AppController extends Controller
         $a = $dob[2].$dob[3];
         $b = $dob[0].$dob[1];
         $c = $dob[6].$dob[7];
-        $d = $dob[0] + $dob[1] + $dob[2] + $dob[3] + $dob[4] + $dob[5] + $dob[6] + $dob[7];
+        if($request->number)
+        {
+            $d = (int)$request->number;
+        }
+        else{
+            $d = $dob[0] + $dob[1] + $dob[2] + $dob[3] + $dob[4] + $dob[5] + $dob[6] + $dob[7];
+        }
 
         $a = $this->check_single($a);
         $b = $this->check_single($b);
         $c = $this->check_single($c);
-        $d = $this->check_single($d);
+        $d = $this->check_value($d);
 
-
+// print_r($this->check_value($c - 2));exit;
         $ar = array(
                     $this->check_value((int)$a),
+
                     $this->check_value((int)$b),
                     $this->check_value((int)$c),
                     $this->check_value($d),
@@ -79,6 +87,11 @@ class AppController extends Controller
 
     function check_value($number)
 	{
+	    $split_number = str_split($number);
+	    if ($split_number[0] == '-') {
+                 $final = $number;
+                 return $final;
+        }
 	    if($number == 11 || $number == 22)
 	    {
 	        $final = $number;
@@ -110,6 +123,17 @@ class AppController extends Controller
 
 	function check_single($number)
 	{
+	    $split_number = str_split($number);
+	    if ($split_number[0] == '-') {
+                 $final = $number;
+                 return $final;
+        }
+		if($number == 11 || $number == 22)
+	    {
+	        $final = $number;
+	        return $final;
+	    }
+	    else{
 		 $get_number = str_split($number);
          	$single = 0;
             if (count($get_number) > 1) {
@@ -119,16 +143,24 @@ class AppController extends Controller
             } else {
                 $single = $number;
             }
-			$singleArray =   str_split($single);
-			$final = 0 ;
-			if (count($singleArray) > 1) {
-                foreach ($singleArray as $val1) {
-                    $final += $val1;
-                }
-            } else {
+            if($single == 11 || $single == 22)
+            {
                 $final = $single;
             }
+            else{
+
+    			$singleArray =   str_split($single);
+    			$final = 0 ;
+    			if (count($singleArray) > 1) {
+                    foreach ($singleArray as $val1) {
+                        $final += $val1;
+                    }
+                } else {
+                    $final = $single;
+                }
+            }
 			return $final;
+	    }
 	}
     public function getNumberDetails(Request $request)
     {
