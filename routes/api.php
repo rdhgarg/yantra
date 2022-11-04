@@ -29,7 +29,9 @@ Route::group(['prefix' => 'system', 'middleware' => ['client'], 'namespace' => '
 
 
         Route::group(['middleware' => 'auth:vendor'], function(){
+            Route::post('get-number-test', 'AppController@getNumberstest');
             Route::post('get-number', 'AppController@getNumbers');
+             Route::post('get-report', 'AppController@getReport');
         });
 
     });

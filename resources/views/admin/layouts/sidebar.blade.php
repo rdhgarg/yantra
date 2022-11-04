@@ -51,23 +51,6 @@
     <ul class="side-menu">
         <li><a class="side-menu__item" href="{{ route('admin.dashboard') }}"><i class="side-menu__icon ti-home"></i><span class="side-menu__label">Dashboard</span></a></li>
 
-        @can('User Master')
-            <li class="slide">
-                <a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon ti-user"></i><span class="side-menu__label">Users</span><i class="angle fa fa-angle-right"></i></a>
-                <ul class="slide-menu">
-                @can('Store Master')
-                    <li>
-                        <a href="{{ route('roles-list') }}" class="slide-item">Roles List<a>
-                    </li>
-                @endcan
-                @can('Store Master')
-                    <li>
-                        <a href="{{ route('roles-create') }}" class="slide-item">Roles Create<a>
-                    </li>
-                @endcan
-                </ul>
-            </li>
-        @endcan
 
         @can('User Master')
         <li class="slide">

@@ -85,7 +85,7 @@ class AuthController extends Controller
     {
         $validator = Validator::make($request->all(), [
             'name' => 'required|string',
-            'mobile' => 'required|numeric|digits:10',
+            'mobile' => 'required|numeric',
             'email' => 'required|string|email',
         ]);
 
@@ -104,7 +104,7 @@ class AuthController extends Controller
 
         //sent otp code here
 
-        $otp = 12345;//rand(10000, 99999);
+        $otp = 1234;//rand(10000, 99999);
 
         $user = User::where(function ($query) use ($request) {$query->where('mobile_no', $request->mobile);})->first();
         if (!$user) {
@@ -128,6 +128,7 @@ class AuthController extends Controller
             'status' => true,
             'message' => 'Otp sent Successfully',
             'verify_otp_status' => $user->verify_otp_status,
+            'mobile' => $user->mobile_no,
         ]);
 
     }
@@ -136,7 +137,7 @@ class AuthController extends Controller
     {
 
         $validator = Validator::make($request->all(), [
-            'mobile' => 'required||numeric|digits:10',
+            'mobile' => 'required|numeric',
         ]);
 
         if ($validator->fails()) {
@@ -181,7 +182,7 @@ class AuthController extends Controller
             if ($check) {
                 if ($check->verify_otp_status == 0) {
 
-                    $otp = 12345;//rand(10000, 99999);
+                    $otp = 1234;//rand(10000, 99999);
 
                     $check->register_otp = $otp;
                     $check->save();
@@ -198,7 +199,7 @@ class AuthController extends Controller
 
         }
 
-        $otp = 12345;//rand(10000, 99999);
+        $otp = 1234;//rand(10000, 99999);
 
         $user->register_otp = $otp;
         $user->device_key = $request->device_key;
@@ -207,15 +208,15 @@ class AuthController extends Controller
         // $text = "Dear+Customer,+Thanks+for+register+with+us.+OTP+for+your+mobile+number+verification+is+{$otp}+Thanks+EasyBuddy";
         // $this->sendSMS("1207162541723791759", $request->mobile, $text);
 
-        return response()->json(['status' => true, 'message' => 'Otp Sent Successfully']);
+        return response()->json(['status' => true, 'message' => 'Otp Sent Successfully','mobile' => $user->mobile_no,]);
     }
 
     public function otpVerify(Request $request)
     {
 
         $validator = Validator::make($request->all(), [
-            'mobile' => 'required|numeric|digits:10|exists:users,mobile_no',
-            'otp' => 'required|numeric|digits:5',
+            'mobile' => 'required|numeric|exists:users,mobile_no',
+            'otp' => 'required|numeric|digits:4',
         ]);
         if ($validator->fails()) {
             $message = [];
